@@ -1,16 +1,42 @@
-# React + Vite
+🚀 Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KeenKeeper
 
-Currently, two official plugins are available:
+📌 Short Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+KeenKeeper is a smart relationship management platform designed to help users nurture and strengthen friendships. The application makes it easy to keep track of conversations, monitor communication frequency, and stay connected with important people through an organized and interactive system.
 
-## React Compiler
+⚙️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* React Router DOM
+* Context API
+* Tailwind CSS
+* Recharts
+* React Toastify
 
-## Expanding the ESLint configuration
+✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔹 Communication Logging
+
+Quickly record different types of interactions such as phone calls, messages, and video conversations with friends.
+
+🔹 Relationship Insights
+
+Visual charts and statistics help users understand how often they communicate and identify relationship trends over time.
+
+🔹 Smart Activity Timeline
+
+All recorded interactions are displayed in a chronological timeline, making it easy to review past communications.
+
+🔹 Interactive User Experience
+
+Instant notifications and responsive design provide a smooth and engaging experience across devices.
+
+🔹 Personalized Friend Profiles
+
+View detailed friend information, relationship status, and communication history from dedicated profile pages.
+
+👨‍💻 Author
+
+Developed with ❤️ by Syed Anik Ahomed Bijoy
