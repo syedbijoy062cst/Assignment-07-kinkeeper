@@ -18,7 +18,6 @@ import Frienddetails from './pages/FriendsDetails/Frienddetails';
 import ErrorElement from './pages/ErrorElement/Error';
 import { ToastContainer } from 'react-toastify';
 import PieChartPage from './pages/Analytics/PieChartPage';
-
 import Timeline from './pages/Timeline/Timeline';
 
 
@@ -44,9 +43,9 @@ const router = createBrowserRouter([
 
       
       {
-        path: "/FriedDetails/:id",
+        path: "/FriendsDetails/:id",
         element: <Frienddetails />,
-        loader: () => fetch("/data/friends.json"),
+        loader: () => fetch("/public/data/friends.json"),
 
       },
 
