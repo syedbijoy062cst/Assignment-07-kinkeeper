@@ -16,7 +16,8 @@ import TimelineProvider, { TimelineContext } from './context/TimelineContext';
 import Status from './pages/Status/Status';
 import Frienddetails from './pages/FriendsDetails/Frienddetails';
 import ErrorElement from './pages/ErrorElement/Error';
-import { ToastContainer } from 'react-toastify';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import PieChartPage from './pages/Analytics/PieChartPage';
 import Timeline from './pages/Timeline/Timeline';
 
@@ -71,7 +72,7 @@ createRoot(document.getElementById('root')).render(
       <RouterProvider router={router} />
        
       
-      
+      <ToastContainer/>
       </TimelineProvider>
     
    
