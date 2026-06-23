@@ -4,9 +4,11 @@ import History from "../../components/Historylist/Historylist";
 
 const Timeline = () => {
   const { timeline } = useContext(TimelineContext);
+  console.log("Timeline Data:",timeline);
+  
 
   const [filter, setFilter] = useState("all");
-
+ 
   // filter logic
   const filteredData =
     filter === "all"

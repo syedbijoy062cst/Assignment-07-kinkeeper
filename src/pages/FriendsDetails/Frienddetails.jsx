@@ -1,4 +1,4 @@
-import { useLoaderData, useParams } from "react-router";
+import { useLoaderData, useParams } from "react-router-dom";
 import { useContext } from "react";
 import { TimelineContext } from "../../context/TimelineContext";
 import { toast } from "react-toastify";

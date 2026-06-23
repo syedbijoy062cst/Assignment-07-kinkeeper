@@ -4,7 +4,6 @@ export const TimelineContext = createContext();
 
 const TimelineProvider = ({ children }) => {
   const [timeline, setTimeline] = useState([]);
-      console.log(timeline);
   const addActivity = (type, name) => {
     const newItem = {
       id: Date.now(),

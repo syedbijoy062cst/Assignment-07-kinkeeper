@@ -3,8 +3,10 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 
 
-import { createBrowserRouter } from "react-router";
-import { RouterProvider } from "react-router/dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 import Banner from './components/Homepage/Banner';
 import MainLayout from './Layout/MainLayout';
 import Homepage from './components/Homepage/Friends';
@@ -16,7 +18,8 @@ import Frienddetails from './pages/FriendsDetails/Frienddetails';
 import ErrorElement from './pages/ErrorElement/Error';
 import { ToastContainer } from 'react-toastify';
 import PieChartPage from './pages/Analytics/PieChartPage';
-import { Timeline } from 'lucide-react';
+
+import Timeline from './pages/Timeline/Timeline';
 
 
 const router = createBrowserRouter([
@@ -32,18 +35,18 @@ const router = createBrowserRouter([
       },
        {
         path: "/Timeline",
-        Component: Timeline
+        element: <Timeline />
       },
       {
         path: "/Status",
-        Component: Status
-      }
+        element: <Status />
+      },
 
-      ,
+      
       {
         path: "/FriedDetails/:id",
         element: <Frienddetails />,
-        loader: () => fetch("/data/friends.json")
+        loader: () => fetch("/data/friends.json"),
 
       },
 
